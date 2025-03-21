@@ -62,7 +62,7 @@ function drawShape(x1, y1, x2, y2) {
             ctx.closePath();
             break;
         case 'pentágono':
-            drawPolygon(x1, y1, 5, Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+            drawPolygon(x1, y1, 5, Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2)));
             break;
         case 'hexágono':
             drawPolygon(x1, y1, 6, Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2)));
